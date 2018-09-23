@@ -3,18 +3,18 @@ function destructivelyAppendKitten(name) {
     kittens.push(name)
 }
 
-function destructivelyPrependKitten(name) {
-    kittens.unshift(name)
+function destructivelyPrependKitten() {
+    kittens.unshift()
 }
 
-function destructivelyRemoveLastKitten(name) {
-    kittens.pop(name)
+function destructivelyRemoveLastKitten() {
+    kittens.pop()
 }
 
-function destructivelyRemoveFirstKitten(name) {
-    kittens.shift(name)
+function destructivelyRemoveFirstKitten() {
+    kittens.shift()
 }
 
-function appendKitten(name) {
+function appendKitten() {
     return kittens.slice(0,-1)
 }
