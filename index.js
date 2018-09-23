@@ -17,7 +17,4 @@ function destructivelyRemoveFirstKitten(name) {
 
 function appendKitten(name) {
     return kittens.slice(0,-1)
-
 }
-
-console.log(appendKitten('name'))
