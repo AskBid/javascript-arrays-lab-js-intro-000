@@ -11,6 +11,10 @@ function destructivelyRemoveLastKitten(name) {
     kittens.pop(name)
 }
 
+function destructivelyRemoveFirstKitten(name) {
+    kittens.shift(name)
+}
+
 function appendKitten(name) {
     return kittens.slice(0,-1)
 }
